@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <script>
+
+            // イベントの追加　DOMの読み込み終了時
+            window.addEventListener('DOMContentLoaded', function() {
+                // idの要素をmenuの変数にストア
+                let menu = document.querySelector('#item3').innerText;
+
+                // HTML出力用メッセージ
+                let html = '<strong>『' + menu + '』セール中！<strong>';
+
+                // ページ上のsale領域にメッセージを出力
+                document.querySelector('#sale').innerHTML = html;
+            });
+
+        </script>
+    </head>
+    <body>
+        <ul>
+            <li id="item1">チョコレートパフェ</li>
+            <li id="item2">チーズケーキ</li>
+            <li id="item3">ショートケーキ</li>
+        </ul>
+        <div id="sale"></div>
+    </body>
+</html>
