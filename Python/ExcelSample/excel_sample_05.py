@@ -1,4 +1,6 @@
+# Write total price to Excel file
 import openpyxl
+
 book = openpyxl.load_workbook('catalog.xlsx')
 sheet = book.active
 total = 0
