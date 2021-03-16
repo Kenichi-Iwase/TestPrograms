@@ -2,9 +2,6 @@
 def f(x, y, z):
     return x + y + z
 
-def square(x):
-    return x ** 2
-
 def show_string(str):
     print(str)
 
@@ -12,9 +9,6 @@ def five_adds(a, b, c, d=0, e=0):
     return a + b + c + d + e
 
 result = f(1, 2, 3)
-print(result)
-
-result = square(3)
 print(result)
 
 show_string("こんにちは。")
