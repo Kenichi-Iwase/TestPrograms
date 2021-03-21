@@ -19,7 +19,7 @@ for i in range(len(drink)):
     print(i+1, drink[i])
 
 # define set
-drink = {'coffee', 'tea', 'juice', 'milk'}
+drink = {'coffee', 'tea', 'juice', 'milk', 'coke'}
 
 # using enumerate function
 for i, x in enumerate(drink, 1):
