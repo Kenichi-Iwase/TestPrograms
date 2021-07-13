@@ -1,2 +1,0 @@
-print('Hello, world')
-print('こんにちは、世界。')
