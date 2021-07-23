@@ -13,7 +13,7 @@ print(x2.capitalize())
 print(x2.replace(' ', '@'))
 
 # play 3
-x3 = ['apple', 'orange', 'pear', 'melon']
+x3 = ['apple', 'orange', 'pear', 'melon', 'grape']
 for x in x3:
     print(x.upper())
     print(x.lower())
@@ -21,7 +21,7 @@ for x in x3:
     print(x.replace('a', 'e'))
 
 # play 4
-x4 = {'apple', 'orange', 'pear', 'melon'}
+x4 = {'apple', 'orange', 'pear', 'melon', 'grape'}
 for x in x4:
     print(x.upper())
     print(x.lower())
@@ -29,7 +29,7 @@ for x in x4:
     print(x.replace('a', 'e'))
 
 # play 5
-x5 = ('apple', 'orange', 'pear', 'melon')
+x5 = ('apple', 'orange', 'pear', 'melon' 'grape')
 for x in x5:
     print(x.upper())
     print(x.lower())
