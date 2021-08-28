@@ -1,9 +1,9 @@
 % CSVファイル読み込み
-T = readtable('WeightListAug2021.csv');
+T = readtable('WeightList.csv');
 
 % 体重変化グラフを表示
 plot(T.Date, T.Weight)
-title('体重変化グラフ　8月')
+title('体重変化グラフ　2021年')
 xlabel('日付')
 ylabel('体重[kg]')
 saveas(gcf, 'WeightGraph.png')
@@ -14,3 +14,10 @@ title('体重と体脂肪率の関係')
 xlabel('体重[kg]')
 ylabel('体脂肪率[%]')
 saveas(gcf, 'WeightRatio.png')
+
+% 体重のヒストグラムを表示
+histogram(T.Weight)
+title('体重のヒストグラム')
+xlabel('体重[kg]')
+ylabel('頻度')
+saveas(gcf, 'WeightHistogram.png')
